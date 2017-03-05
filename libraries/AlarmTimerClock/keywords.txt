@@ -1,0 +1,50 @@
+###########################################
+# Syntax Coloring Map For AlarmClock
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+AlarmClock	KEYWORD1
+ELcdMode    KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+m_lcd	        KEYWORD2
+m_rtc       	KEYWORD2
+m_modeButton	KEYWORD2
+m_timeoutButton	KEYWORD2
+m_outputPin	    KEYWORD2
+m_mode	        KEYWORD2
+m_invalid	    KEYWORD2
+m_timeout	    KEYWORD2
+m_alarmTime	    KEYWORD2
+updateAlarm	    KEYWORD2
+updateDateTime	KEYWORD2
+begin	        KEYWORD2
+setup	        KEYWORD2
+invalidate	    KEYWORD2
+update	        KEYWORD2
+getMode	        KEYWORD2
+isAlarm	        KEYWORD2
+isAlarmEnabled	KEYWORD2
+nextMode	    KEYWORD2
+startTimer	    KEYWORD2
+stopTimer	    KEYWORD2
+resetTimeout	KEYWORD2
+incTimeout	    KEYWORD2
+handleButtons	KEYWORD2
+handleAlarm	    KEYWORD2
+setAlarmTime    KEYWORD2
+getAlarmTime    KEYWORD2
+processOneSecond    KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
+BUTTON_DEBOUNCE_DELAY   LITERAL1
+BUTTON_DURATION_PRESS   LITERAL1
+TIMEOUT_STEP            LITERAL1
+CLOCK_CHAR              LITERAL1
